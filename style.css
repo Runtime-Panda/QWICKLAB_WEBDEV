@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: url('C:/Users/prane/Documents/MY CODES/space-auth/space_image.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 50, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #0ff;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0ff;
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.glow-button {
+  background-color: transparent;
+  border: 2px solid #0ff;
+  color: #0ff;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.glow-button:hover,
+.glow-button.active {
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #111;
+  color: white;
+  box-shadow: 0 0 5px #0ff;
+}
+
+.hidden {
+  display: none;
+}

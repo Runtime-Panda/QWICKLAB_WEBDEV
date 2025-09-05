@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Auth UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Access Portal</h1>
+    <div class="form-toggle">
+      <button id="loginBtn" class="glow-button active">Login</button>
+      <button id="signupBtn" class="glow-button">Signup</button>
+    </div>
+
+    <form id="loginForm" class="auth-form">
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit" class="glow-button">Login</button>
+    </form>
+
+    <form id="signupForm" class="auth-form hidden">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <button type="submit" class="glow-button">Signup</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
